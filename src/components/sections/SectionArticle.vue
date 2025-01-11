@@ -17,7 +17,8 @@ const props = defineProps({
             <p class="mt-3 text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus
                 fugiat delectus eius officiis doloremque, enim quibusdam quae doloribus laborum dolorem ducimus
                 amet assumenda soluta id nihil accusamus mollitia modi omnis.</p>
-            <a href="" class="inline-block text-lg font-normal text-white bg-black mt-4 px-4 py-2 rounded-full">Read
+            <a href="" class="inline-block text-lg font-normal text-white bg-black mt-4 px-4 py-2 rounded-full
+            hover:opacity-80">Read
                 More</a>
         </div>
     </div>
