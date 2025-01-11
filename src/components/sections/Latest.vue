@@ -1,6 +1,6 @@
 <script setup>
 import SectionTitle from '@/components/sections/SectionTitle.vue';
-import LatestArticles from '../articles/LatestArticles.vue';
+import SectionArticle from '@/components/sections/SectionArticle.vue';
 
 
 </script>
@@ -10,11 +10,11 @@ import LatestArticles from '../articles/LatestArticles.vue';
         <SectionTitle title="Latest" />
         <div class="grid grid-cols-3 gap-6 mx-12 my-6">
             <div class="col-span-1">
-                <LatestArticles />
+                <SectionArticle />
             </div>
             <div class="col-span-2 space-y-6">
-                <LatestArticles :isRow="true" />
-                <LatestArticles :isRow="true" />
+                <SectionArticle :isRow="true" />
+                <SectionArticle :isRow="true" />
             </div>
         </div>
     </section>
